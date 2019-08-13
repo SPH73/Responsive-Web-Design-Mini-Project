@@ -1,8 +1,14 @@
 body, html {
     height: 100%;
     margin: 0;
+    color: rgba(255,255,255, .8);
 }
 
+/* We changed the colour here because the high contrast colours
+make the black text is in poor contrast.
+the rgba provide the opportunity to add opacity. The .8 is 0.8 opacity.
+it will be just off-white with a slight grey creeping in.
+*/
 .main    {
     height: 100%;
 }
@@ -16,30 +22,25 @@ body, html {
     padding: 15px 25px;
     
 }
-/* the position is fixed and won't float
-so potentially, content could float undeneath it
-and disappear.*/
 
-/*the padding around the text gives the space for more 
-background colour and some text is hidden under it but 
-it won't matter as we will vertially center our text later.*/
 
 .section    {
     background-color: #0097d3;
     height: 100%;
 }
 
-/*using garish colours initially helps to see the shape of the structure
-more easily.*/
 
 .article, .aside    {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
-/* transformation trick to centre text so that it will ALL
-centre.*/
 
 .section-paragraph    {
     font-size: 1em;
+}
+
+.footer    {
+    background-color: #4a4a4f;
+    padding: 15px;
 }
