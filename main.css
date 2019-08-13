@@ -1,0 +1,16 @@
+.header    {
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    background-color: #e84610;
+    padding: 15px 25px;
+    
+}
+/* the position is fixed and won't float
+so potentially, content could float undeneath it
+and disappear.*/
+
+/*the padding around the text gives the space for more 
+background colour and some text is hidden under it but 
+it won't matter as we will vertially center our text later.*/
