@@ -1,3 +1,12 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.main    {
+    height: 100%;
+}
+
 .header    {
     position: fixed;
     top: 0;
@@ -14,3 +23,23 @@ and disappear.*/
 /*the padding around the text gives the space for more 
 background colour and some text is hidden under it but 
 it won't matter as we will vertially center our text later.*/
+
+.section    {
+    background-color: #0097d3;
+    height: 100%;
+}
+
+/*using garish colours initially helps to see the shape of the structure
+more easily.*/
+
+.article, .aside    {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* transformation trick to centre text so that it will ALL
+centre.*/
+
+.section-paragraph    {
+    font-size: 1em;
+}
